@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+*/build
+/build
+/captures
+# Von Robert hinzugefügt:
+/.idea
+gradle-wrapper.properties
+gradle-wrapper.jar
+gradlew.bat
+gradlew

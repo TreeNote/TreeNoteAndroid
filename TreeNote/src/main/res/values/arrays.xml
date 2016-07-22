@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tree_node_view_options">
+        <item>Zoom in</item>
+        <item>Delete</item>
+    </string-array>
+</resources>

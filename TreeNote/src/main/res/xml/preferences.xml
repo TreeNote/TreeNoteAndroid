@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:selectable="false"
+        android:summary="@string/owncloud"
+        android:title="@string/sync_owncloud"/>
+    <EditTextPreference
+        android:defaultValue="https://"
+        android:inputType="textUri"
+        android:key="own_cloud_url"
+        android:title="OwnCloud URL"/>
+    <EditTextPreference
+        android:key="own_cloud_username"
+        android:title="@string/owncloud_user"/>
+    <EditTextPreference
+        android:inputType="textPassword"
+        android:key="own_cloud_password"
+        android:title="@string/owncloud_password"/>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="enable_notifications"
+        android:summary="@string/today_notifications"
+        android:title="@string/enable_notifications"/>
+</PreferenceScreen>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">TreeNote</string>
+    <string name="dragButton" translatable="false">DragButton</string>
+    <string name="treeNodeEntryType">Type:</string>
+    <string name="startsAt">Start date:</string>
+    <string name="addPicture">Add picture</string>
+    <string name="delete">Delete this entry</string>
+    <string name="createdAt">Created:</string>
+    <string name="lastModifiedAt">Last modified:</string>
+    <string name="drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="action_all_items">All items</string>
+    <string name="action_today">Today</string>
+    <string name="action_upcoming">With date</string>
+    <string name="action_preferences">Preferences</string>
+    <string name="action_todos">Todos only</string>
+    <string name="action_about">About</string>
+    <string name="about_text">Made by Jan Korte and Robert Zilke.\n\nAlso checkout the desktop app under treenote.github.io</string>
+    <string name="none_set">None set</string>
+    <string name="choose_option">Choose a option</string>
+    <string name="add_current_location">Add current location</string>
+    <string name="newLocationFound">New location found</string>
+    <string name="noProviderFound_useLastKnownLocation">No provider ist enabeled, last known location will be used</string>
+    <string name="notPossibleToDetermineLocation">Not possible to determine current location</string>
+    <string name="determiningCurrentLocation">Determining current location…</string>
+    <string name="startDateReached">Start date reached</string>
+    <string name="expand_children">show/hide children</string>
+    <string name="highest_tree_node_reached">Highest TreeNode reached</string>
+    <string name="going_up">Going up</string>
+    <string name="going_down">Going down</string>
+    <string name="start_sync">Starting synchronisation…</string>
+    <string name="check_owncloud_url">Could not connect to the server - check the OwnCloud URL!</string>
+    <string name="cloud_tree_is_newer">Cloud tree is newer. Updated the local tree.</string>
+    <string name="local_tree_is_newer">Local tree is newer. Updated the cloud tree.</string>
+    <string name="check_internet_connection">Could not connect to the server - check the OwnCloud URL and your internet connection!</string>
+    <string name="check_username_and_password">Could not authenticate - check username and password!</string>
+    <string name="owncloud">OwnCloud is an open source file hosting service like Dropbox, which whom you can keep the Android version with the desktop version of TreeNote in sync. First get a free account at www.owncloud.org/providers and insert the data below. Then press the button in the top right to do a synchronisation.</string>
+    <string name="sync_owncloud">Synchronisation with OwnCloud</string>
+    <string name="owncloud_user">OwnCloud username</string>
+    <string name="owncloud_password">OwnCloud password</string>
+    <string name="NOTE">Note</string>
+    <string name="TODO">Task</string>
+    <string name="DONE">Completed task</string>
+    <string name="current_root">Current root:</string>
+    <string name="perms_not">Permissions not granted. This feature won\'t work until you grant them.</string>
+    <string name="perms_granted">Permissions granted, try again now!</string>
+    <string name="notification_text">Your tasks for today!</string>
+    <string name="enable_notifications">Enable notifications</string>
+    <string name="today_notifications">When the current date reaches the start date of an entry, you\'ll get a notification.</string>
+</resources>

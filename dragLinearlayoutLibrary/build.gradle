@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+apply plugin: 'bintray-release'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.google.guava:guava:19.0'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.3.4'
+    }
+}
+
+// https://github.com/novoda/bintray-release/wiki/Configuration-of-the-publish-closure
+publish {
+    userOrg = 'justasm'
+    groupId = 'com.jmedeisis'
+    artifactId = 'draglinearlayout'
+    version = "1.1.0"
+    licences = ['MIT']
+    description = "Android LinearLayout with drag and drop to reorder."
+    website = 'https://github.com/justasm/DragLinearLayout'
+}

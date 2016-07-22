@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#fdfff2</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:editTextColor">@android:color/primary_text_light</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="DarkFont" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+</resources>

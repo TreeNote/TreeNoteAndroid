@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="treeNodeEntryType">Typ:</string>
+    <string name="startsAt">Startet am:</string>
+    <string name="addPicture">Bild setzen</string>
+    <string name="delete">Diesen Eintrag löschen</string>
+    <string name="createdAt">Erstellt:</string>
+    <string name="lastModifiedAt">Geändert:</string>
+    <string name="choose_option">Wähle eine Option</string>
+    <string name="add_current_location">Aktuelle Position hinzufügen</string>
+    <string name="newLocationFound">Neue Location wurde gefunden</string>
+    <string name="noProviderFound_useLastKnownLocation">Kein Provider ist enabled, letzter verfügbarer Standort wird verwendet</string>
+    <string name="notPossibleToDetermineLocation">Es kann kein Standort ermittelt werden</string>
+    <string name="startDateReached">Startdatum wurde erreicht</string>
+    <string name="expand_children">Kindereinträge anzeigen/ausblenden</string>
+    <string name="determiningCurrentLocation">Aktuelle Position wird ermittelt…</string>
+    <string name="action_about">Über</string>
+    <string name="about_text">Programmiert von Jan Korte and Robert Zilke.\n\nSieh dir auch TreeNote für PC an!\ntreenote.github.io</string>
+    <string name="action_all_items">Alle Einträge</string>
+    <string name="action_todos">Nur Aufgaben</string>
+    <string name="none_set">Nicht gesetzt</string>
+    <string name="action_preferences">Einstellungen</string>
+    <string name="action_today">Heute</string>
+    <string name="action_upcoming">Mit Datum</string>
+    <string name="highest_tree_node_reached">Höchste TreeNode erreicht</string>
+    <string name="going_up">Nach oben</string>
+    <string name="going_down">Nach unten</string>
+    <string name="start_sync">Starte Synchronisierung…</string>
+    <string name="check_owncloud_url">Server konnte nicht kontaktiert werden - Überprüfe die OwnCloud URL!</string>
+    <string name="cloud_tree_is_newer">Baum in der Cloud ist neuer, der lokale Baum wird aktualisiert.</string>
+    <string name="local_tree_is_newer">Der lokale Baum ist neuer, der Baum in der Cloud wird aktualisiert.</string>
+    <string name="check_internet_connection">Server konnte nicht kontaktiert werden - Überprüfe die OwnCloud URL und deine Internet Verbindung!</string>
+    <string name="check_username_and_password">Fehler bei der Authemtifizierung, überprüfe deine eingegebenen Login Daten!</string>
+    <string name="owncloud">OwnCloud ist ein quelloffener file hosting service wie Dropbox,
+        mit dem du die Android-Version mit der Desktop-Version von TreeNote synchronisieren kannst.
+        Hol dir zuerst ein kostenfreies Konto auf www.owncloud.org/providers und füge die Zugangsdaten unten ein.
+        Drücke dann den Button oben rechts, um zu synchronisieren.</string>
+    <string name="sync_owncloud">Synchronisation mit OwnCloud</string>
+    <string name="owncloud_user">OwnCloud Benutzername</string>
+    <string name="owncloud_password">OwnCloud Passwort</string>
+    <string name="NOTE">Notiz</string>
+    <string name="TODO">Aufgabe</string>
+    <string name="DONE">Erledigte Aufgabe</string>
+    <string name="current_root">Aktuelle Wurzel:</string>
+    <string name="perms_not">Berechtigungen nicht erteilt. Diese Funktion ist erst verfügbar, wenn die Berechtigungen erteilt werden.</string>
+    <string name="perms_granted">Berechtigungen erteilt, versuche es jetzt noch einmal!</string>
+    <string name="notification_text">Deine Aufgaben für heute!</string>
+    <string name="enable_notifications">Benachrichtigungen aktivieren</string>
+    <string name="today_notifications">Wenn das aktuelle Datum das Startdatum eines Eintrags erreicht, bekommst du eine Benachrichtigung.</string>
+</resources>

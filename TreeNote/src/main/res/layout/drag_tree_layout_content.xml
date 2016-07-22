@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.treenote.views.TreeViewContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/treeViewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+</de.treenote.views.TreeViewContainer>

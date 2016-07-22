@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+
+    <color name="secondary">#ff752c5e</color>
+    <color name="secondaryDark">#ff611c4b</color>
+    <color name="primary">#818de9</color>
+    <color name="primaryDark">#ff147165</color>
+    <color name="ternary">#ff3b3b3a</color>
+    <color name="accent">#ffe3b008</color>
+
+    <color name="primaryText">#de000000</color>
+    <color name="secondaryText">#8a000000</color>
+    <color name="grey">#de515151</color>
+
+    <color name="drawer_header_bg">@color/colorPrimary</color>
+    <color name="drawer_item_text_default">#bebebe</color>
+    <color name="drawer_item_text_checked">@color/primary</color>
+
+    <color name="tree_node_view_background">@android:color/white</color>
+    <color name="tree_node_view_mark_as_potential_parent">@android:color/holo_red_dark</color>
+
+</resources>

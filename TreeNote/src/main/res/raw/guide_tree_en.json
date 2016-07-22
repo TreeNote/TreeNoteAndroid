@@ -1,0 +1,51 @@
+{
+  "ID": 0,
+  "children": [
+    {
+      "ID": 2,
+      "children": [
+        {
+          "ID": 1,
+          "children": [],
+          "creationDatetime": "Jul 15, 2016 12:33:57 PM",
+          "editDatetime": "Jul 15, 2016 12:48:19 PM",
+          "text": "Expand an entry by tapping on the arrow left of it",
+          "type": "NOTE"
+        },
+        {
+          "ID": 3,
+          "children": [],
+          "creationDatetime": "Jul 15, 2016 12:34:03 PM",
+          "editDatetime": "Jul 15, 2016 12:48:19 PM",
+          "text": "Edit the structure of the tree by dragging the handle at the right of an entry up or down",
+          "type": "NOTE"
+        },
+        {
+          "ID": 4,
+          "children": [
+            {
+              "ID": 5,
+              "children": [],
+              "creationDatetime": "Jul 15, 2016 12:47:35 PM",
+              "editDatetime": "Jul 15, 2016 12:48:19 PM",
+              "text": "Swipe to the right anywhere, to get a level up again",
+              "type": "NOTE"
+            }
+          ],
+          "creationDatetime": "Jul 15, 2016 12:44:54 PM",
+          "editDatetime": "Jul 15, 2016 12:48:19 PM",
+          "text": "When you swipe an entry to the left, only its children will be shown. Try it on this entry.",
+          "type": "NOTE"
+        }
+      ],
+      "creationDatetime": "Jul 15, 2016 12:34:00 PM",
+      "editDatetime": "Jul 15, 2016 12:48:19 PM",
+      "text": "TreeNote Guide",
+      "type": "NOTE"
+    }
+  ],
+  "creationDatetime": "Jul 15, 2016 12:08:23 PM",
+  "editDatetime": "Jul 15, 2016 12:08:23 PM",
+  "text": "ROOT",
+  "type": "NOTE"
+}

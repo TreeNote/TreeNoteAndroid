@@ -1,0 +1,51 @@
+{
+  "ID": 0,
+  "children": [
+    {
+      "ID": 2,
+      "children": [
+        {
+          "ID": 1,
+          "children": [],
+          "creationDatetime": "Jul 15, 2016 12:33:57 PM",
+          "editDatetime": "Jul 15, 2016 12:48:19 PM",
+          "text": "Klappe Einträge mit dem Pfeil links auf und zu",
+          "type": "NOTE"
+        },
+        {
+          "ID": 3,
+          "children": [],
+          "creationDatetime": "Jul 15, 2016 12:34:03 PM",
+          "editDatetime": "Jul 15, 2016 12:48:19 PM",
+          "text": "Ändere die Struktur des Baums, indem du den Drag-Handle am rechten Rand eines Eintrages drückst, hältst und vertikal verschiebst ",
+          "type": "NOTE"
+        },
+        {
+          "ID": 4,
+          "children": [
+            {
+              "ID": 5,
+              "children": [],
+              "creationDatetime": "Jul 15, 2016 12:47:35 PM",
+              "editDatetime": "Jul 15, 2016 12:48:19 PM",
+              "text": "Wische irgendwo nach rechts, um wieder eine Ebene nach oben zu kommen ",
+              "type": "NOTE"
+            }
+          ],
+          "creationDatetime": "Jul 15, 2016 12:44:54 PM",
+          "editDatetime": "Jul 15, 2016 12:48:19 PM",
+          "text": "Wenn du einen Eintrag nach links wischst, werden nur dessen Kinder angezeigt. Probiere das bei diesem Eintrag aus. ",
+          "type": "NOTE"
+        }
+      ],
+      "creationDatetime": "Jul 15, 2016 12:34:00 PM",
+      "editDatetime": "Jul 15, 2016 12:48:19 PM",
+      "text": "TreeNote Anleitung",
+      "type": "NOTE"
+    }
+  ],
+  "creationDatetime": "Jul 15, 2016 12:08:23 PM",
+  "editDatetime": "Jul 15, 2016 12:08:23 PM",
+  "text": "ROOT",
+  "type": "NOTE"
+}

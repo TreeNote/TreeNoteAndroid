@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/treeNodeViewRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/treeNodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="textShortMessage"
+        android:paddingEnd="24dp"
+        android:paddingStart="35dp"
+        android:textSize="22sp"
+        android:visibility="gone"
+        tools:ignore="LabelFor"/>
+
+    <LinearLayout
+        android:id="@+id/treeLinesContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"/>
+
+    <ImageButton
+        android:id="@+id/expandChildrenButton"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_toEndOf="@id/treeLinesContainer"
+        android:contentDescription="@string/expand_children"
+        android:src="@drawable/ic_expand_more_grey_800_36dp"/>
+
+    <CheckBox
+        android:id="@+id/treeNodeCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/expandChildrenButton"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/treeNodeLabelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/treeNodeCheckBox"
+        android:layout_toStartOf="@+id/dragButton"
+        android:textColor="@color/grey"
+        android:textSize="22sp"/>
+
+    <ImageButton
+        android:id="@+id/dragButton"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/dragButton"
+        android:src="@drawable/ic_drag_handle_grey_700_18dp"/>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/treeNodeLabelText"
+        android:layout_toEndOf="@id/treeNodeCheckBox"
+        android:maxLines="1"
+        android:textColor="#b4b4b4"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:ignore="RtlSymmetry"/>
+
+    <!-- row separator lines-->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#d9d9d9"/>
+
+</RelativeLayout>

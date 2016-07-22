@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal"
+            android:layout_marginRight="@dimen/padding_horizontal"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:inputType="textMultiLine"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal_more"
+            android:layout_marginRight="@dimen/padding_horizontal_more"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/treeNodeEntryType"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <Spinner
+                android:id="@+id/type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal_more"
+            android:layout_marginRight="@dimen/padding_horizontal_more"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/startsAt"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <EditText
+                android:id="@+id/startDateEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="date"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal_more"
+            android:layout_marginRight="@dimen/padding_horizontal_more"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/createdAt"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/createdAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal_more"
+            android:layout_marginRight="@dimen/padding_horizontal_more"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="@string/lastModifiedAt"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/lastModifiedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal"
+            android:layout_marginRight="@dimen/padding_horizontal"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:text="@string/delete"/>
+
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal"
+            android:layout_marginRight="@dimen/padding_horizontal"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:text="@string/addPicture"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/addCurrentLocationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_vertical"
+            android:layout_marginLeft="@dimen/padding_horizontal"
+            android:layout_marginRight="@dimen/padding_horizontal"
+            android:layout_marginTop="@dimen/padding_vertical"
+            android:text="@string/add_current_location"/>
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</ScrollView>

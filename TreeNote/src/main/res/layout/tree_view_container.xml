@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Der Container wird benötigt, damit der floating action button über der TreeView ist-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <de.treenote.views.TreeNodePathView
+        android:id="@+id/treeNodePathView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/spaceHolderForFloatingButtons"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"/>
+
+        <de.treenote.views.TreeView
+            android:id="@+id/treeViewInContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButtonAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/spaceHolderForFloatingButtons"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:src="@drawable/ic_add_white"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButtonClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/spaceHolderForFloatingButtons"
+            android:layout_alignParentStart="true"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:src="@drawable/ic_clear_white"
+            android:visibility="gone"
+            app:backgroundTint="#c71c1c"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButtonCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/spaceHolderForFloatingButtons"
+            android:layout_margin="16dp"
+            android:layout_toEndOf="@id/floatingActionButtonClear"
+            android:clickable="true"
+            android:src="@drawable/ic_check_white"
+            android:visibility="gone"
+            app:backgroundTint="#00bf13"/>
+
+    </RelativeLayout>
+</LinearLayout>

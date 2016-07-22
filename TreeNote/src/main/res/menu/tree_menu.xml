@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.TreeNoteMainActivity">
+
+    <item
+        android:id="@+id/sync_action"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:title="Synchronize"
+        app:showAsAction="always"/>
+
+</menu>
