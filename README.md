@@ -1,3 +1,5 @@
+![](screenshot_1.png) ![](screenshot_2.png) ![](screenshot_3.png)
+
 With TreeNote, you can create and structure notes and tasks.<br>
 Drag the drag handle at the right side of an entry onto a second entry, to make the first entry a child of the second entry. <br>
 Tap on an arrow to expand or collapse a parent entry.<br>
